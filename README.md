@@ -20,17 +20,17 @@ These wheels are statically linked and self-contained — no system libraries or
 ### Using `--find-links` (recommended)
 
 ```bash
-pip install lgpio --find-links https://github.com/makermelissa/lgpio-python-wheels/raw/main/wheels/
+pip install lgpio --find-links https://github.com/adafruit/lgpio-python-wheels/raw/main/wheels/
 ```
 
 ### Direct URL install
 
 ```bash
 # Python 3.13
-pip install https://github.com/makermelissa/lgpio-python-wheels/raw/main/wheels/lgpio-0.2.2.0-cp313-cp313-linux_aarch64.whl
+pip install https://github.com/adafruit/lgpio-python-wheels/raw/main/wheels/lgpio-0.2.2.0-cp313-cp313-linux_aarch64.whl
 
 # Python 3.14
-pip install https://github.com/makermelissa/lgpio-python-wheels/raw/main/wheels/lgpio-0.2.2.0-cp314-cp314-linux_aarch64.whl
+pip install https://github.com/adafruit/lgpio-python-wheels/raw/main/wheels/lgpio-0.2.2.0-cp314-cp314-linux_aarch64.whl
 ```
 
 ### Alternative: apt (Raspberry Pi OS only)
